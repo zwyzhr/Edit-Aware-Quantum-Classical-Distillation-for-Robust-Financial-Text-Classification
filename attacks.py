@@ -6,7 +6,7 @@ from dataclasses import dataclass
 import torch
 from torch import nn
 
-from .edits import Edit, EditValidator, Validity, ordered_edits
+from edits import Edit, EditValidator, Validity, ordered_edits
 
 
 @dataclass(frozen=True)

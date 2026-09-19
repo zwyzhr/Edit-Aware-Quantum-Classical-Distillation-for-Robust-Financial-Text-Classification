@@ -10,10 +10,10 @@ import torch
 from torch import Tensor, nn
 from torch.utils.data import DataLoader, Dataset
 
-from .edits import NeighborhoodSampler
-from .encoders import normalize_text
-from .objectives import QADObjective
-from .quantum import VariationalCircuit
+from edits import NeighborhoodSampler
+from encoders import normalize_text
+from objectives import QADObjective
+from quantum import VariationalCircuit
 
 
 RUN_SEEDS = (17, 29, 43, 71, 101)

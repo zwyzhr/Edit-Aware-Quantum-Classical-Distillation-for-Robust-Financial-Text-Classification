@@ -13,7 +13,7 @@ import string
 import torch
 from torch.nn import functional as F
 
-from .objectives import EDIT_CATEGORIES
+from objectives import EDIT_CATEGORIES
 
 
 class Validity(Enum):
